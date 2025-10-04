@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paulune Des Étoiles</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header role="banner">
+        <h1>Paulune Des Étoiles</h1>
+        <p class="bandeau-credit">&copy; Nicolas Gouny, illustration</p>
+    </header>
+    <main role="main">
+        <h2>Bienvenue sur le site de Paulune Des Étoiles</h2>
+    </main>
+    <footer role="contentinfo">
+        <p>Tous droits réservés &copy; <span id="current-year"></span> Paulune Des Etoiles</p>
+    </footer>
+    <script>
+        // Afficher l'année actuelle dynamiquement
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
