@@ -85,12 +85,12 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.75); /* Arrière-plan noir avec opacité */
+    background-color: rgba(0, 0, 0, 0.6); /* Arrière-plan noir avec opacité */
     z-index: 1;
 }
 
 h1 {
-    color: rgba(208, 167, 91, 1);
+    color: rgb(210, 168, 88);
     font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -120,7 +120,7 @@ h1 {
 .banner-description {
     font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
     font-style: italic;
-    color: rgba(208, 167, 91, 0.75);
+    color: rgba(210, 168, 88, 0.87);
     font-size: 24px;
     text-align: center;
     position: relative;
@@ -143,11 +143,21 @@ h1 {
 
 main {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
 }
 
 main img {
     margin: 10px;
     padding: 10px;
     border-radius: 100%;
+}
+
+.main-text {
+    color: #2035a8;
+    font-family: Georgia, sans-serif;
+    font-size: 24px;
+    text-align: center;
+    position: relative;
 }
