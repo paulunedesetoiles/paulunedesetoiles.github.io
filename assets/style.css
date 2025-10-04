@@ -90,7 +90,7 @@ header::before {
 }
 
 h1 {
-    color: white;
+    color: rgba(208, 167, 91, 1);
     font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
     font-size: 36px;
     font-weight: bold;
@@ -120,7 +120,7 @@ h1 {
 .banner-description {
     font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
     font-style: italic;
-    color: rgba(255, 255, 255, 0.75);
+    color: rgba(208, 167, 91, 0.75);
     font-size: 24px;
     text-align: center;
     position: relative;
@@ -129,7 +129,7 @@ h1 {
 
 .bandeau-credit {
     font-style: italic;
-    color: #ffffff;
+    color: rgba(208, 167, 91, 0.75);
     font-size: 12px;
     position: absolute;
     bottom: 10px;
@@ -149,4 +149,5 @@ main {
 main img {
     margin: 10px;
     padding: 10px;
+    border-radius: 100%;
 }
