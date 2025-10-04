@@ -36,7 +36,7 @@ header::before {
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Arrière-plan noir avec opacité */
+    background-color: rgba(0, 0, 0, 0.75); /* Arrière-plan noir avec opacité */
     z-index: 1;
 }
 
@@ -73,6 +73,7 @@ h1 {
     color: white;
     font-size: 24px;
     text-align: center;
+    position: relative;
     z-index: 2;
 }
 
