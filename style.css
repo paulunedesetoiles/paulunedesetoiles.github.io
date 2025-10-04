@@ -59,6 +59,7 @@ a {
 }
 
 .bandeau-credit {
+    font-style: italic;
     color: #ffffff;
     font-size: 12px;
     position: absolute;
