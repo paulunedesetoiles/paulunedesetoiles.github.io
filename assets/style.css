@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'BelleAllureCM-Gros';
+    src: url('./fonts/belle_allure/BelleAllureCM-Gros.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -5,7 +12,7 @@ body {
 }
 
 header {
-    background-image: url('bandeau-header-paulune-des-etoiles-cropped-800x300.jpg');
+    background-image: url('./images/banner-header-cropped-800x300.jpg');
     background-size: cover;
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat;
@@ -27,6 +34,7 @@ header::before {
 
 h1 {
     color: white;
+    font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
     font-size: 48px;
     font-weight: bold;
     text-align: center;
