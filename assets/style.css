@@ -23,10 +23,27 @@ header {
     background-size: cover;
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat;
-    height: 400px; /* S'assurer que la page prend toute la hauteur */
     width: 80%; /* S'assurer que la page prend toute la largeur */
     position: relative; /* Pour positionner le crédit en absolu */
     padding: 10%;
+}
+
+@media (max-width: 600px) {
+    header {
+        height: 450px;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 900px) {
+    header {
+        height: 400px;
+    }
+}
+
+@media (min-width: 901px) {
+    header {
+        height: 350px;
+    }
 }
 
 header::before {
@@ -70,7 +87,8 @@ h1 {
 
 .banner-description {
     font-family: 'BelleAllureCM-Gros', Arial, sans-serif;
-    color: white;
+    font-style: italic;
+    color: rgba(255, 255, 255, 0.75);
     font-size: 24px;
     text-align: center;
     position: relative;
