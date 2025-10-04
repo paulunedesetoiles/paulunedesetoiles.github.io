@@ -12,6 +12,55 @@
     font-style: normal;
 }
 
+/* Modern CSS Reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* End of Modern CSS Reset */
+
 body {
     margin: 0;
     padding: 0;
@@ -23,27 +72,8 @@ header {
     background-size: cover;
     background-position: center; /* Centrer l'image */
     background-repeat: no-repeat;
-    width: 80%; /* S'assurer que la page prend toute la largeur */
     position: relative; /* Pour positionner le crédit en absolu */
     padding: 10%;
-}
-
-@media (max-width: 600px) {
-    header {
-        height: 450px;
-    }
-}
-
-@media (min-width: 601px) and (max-width: 900px) {
-    header {
-        height: 400px;
-    }
-}
-
-@media (min-width: 901px) {
-    header {
-        height: 350px;
-    }
 }
 
 header::before {
